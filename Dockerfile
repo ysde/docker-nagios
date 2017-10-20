@@ -68,6 +68,7 @@ RUN set -x \
         libswitch-perl \
         libwww-perl \
         libjson-perl \
+        jq \
     && rm -rf /var/lib/apt/lists/*
 
 # -----------------------------------------------------------------------------
