@@ -70,6 +70,7 @@ RUN set -x \
         libjson-perl \
         jq \
         openjdk-7-jre \
+        python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
 # -----------------------------------------------------------------------------
