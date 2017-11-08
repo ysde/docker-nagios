@@ -69,6 +69,7 @@ RUN set -x \
         libwww-perl \
         libjson-perl \
         jq \
+        openjdk-7-jre \
     && rm -rf /var/lib/apt/lists/*
 
 # -----------------------------------------------------------------------------
